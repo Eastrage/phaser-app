@@ -1,0 +1,45 @@
+.app-grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    margin: 0 20%;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;   
+}
+
+.app {
+    width: 600px;
+    height: 300px;
+    margin: 50px 0;
+    
+    &_title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        width: 100%;
+        background-color: hotpink;
+        color: white;
+    }   
+
+    &_image {
+        background-image: url(src/assets/soon.jpg); 
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+    }
+
+    &_letters_fall {
+        background-image: url(src/assets/app-letters-fall.png); 
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100%;
+    }
+}
